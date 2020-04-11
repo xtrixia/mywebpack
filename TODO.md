@@ -4,5 +4,5 @@
 - [x] Add live-reloading (dev-server)
 - [x] Handle styling (CSS/SCSS)
 - [x] Handle image and other static image
-- [ ] Separate production and development 
-- [ ] Add source map
+- [x] Separate production and development 
+- [x] Add source map
