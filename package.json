@@ -1,14 +1,17 @@
 {
   "name": "mywebpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo of React App from scratch using Webpack & Babel",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --config webpack.dev.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xtrixia/mywebpack"
+  },
+  "author": "Annisa Feryannie",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -29,7 +32,9 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2"
   }
 }

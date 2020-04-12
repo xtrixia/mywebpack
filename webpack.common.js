@@ -16,10 +16,12 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
-          },
         },
+      },
+      {
+        test: /\.css$/,
+        loader:
+          'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
       },
       {
         test: /\.s[ac]ss$/i,
